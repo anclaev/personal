@@ -1,15 +1,16 @@
 import { createGlobalStyle } from 'styled-components'
 import { normalize } from 'styled-normalize'
-import { themeColor } from './vars'
-import fonts from './fonts'
+import { EFamily } from '../core/types/fonts'
+import { font, themeColor } from './vars'
+import fontFaces from './fonts'
 
 export const Root = createGlobalStyle`
     ${normalize}
-    ${fonts}
+    ${fontFaces}
+
     html {
         background: ${themeColor};
         color: #fff;
-        font-family: 'Roboto Mono';
-        font-weight: normal;
+        ${font(EFamily.robotoMono, 24)}
     }
 `
