@@ -6,7 +6,7 @@ import { themeColor } from './vars'
 
 import fontFaces from './fonts'
 
-export const Root = createGlobalStyle`
+export const SRoot = createGlobalStyle`
     ${normalize}
     ${fontFaces}
 

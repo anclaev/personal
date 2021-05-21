@@ -1,10 +1,12 @@
-import { Root } from './styles/root'
+import { SRoot } from './styles/root'
+
 import Background from './components/Background'
+import Header from './containers/Header'
 
 const App = () => (
   <>
-    <Root />
-    <div>This is my first website!</div>
+    <SRoot />
+    <Header />
     <Background />
   </>
 )
