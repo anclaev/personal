@@ -1,7 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 import { normalize } from 'styled-normalize'
 import { EFamily } from '../core/types/fonts'
-import { font, themeColor } from './vars'
+import { font } from './functions'
+import { themeColor } from './vars'
+
 import fontFaces from './fonts'
 
 export const Root = createGlobalStyle`
