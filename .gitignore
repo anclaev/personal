@@ -10,7 +10,7 @@
 
 # production
 /build
-/public/fav
+/public/
 /src/assets
 fonts.d.ts
 react-app-env.d.ts

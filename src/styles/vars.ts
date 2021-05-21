@@ -8,3 +8,4 @@ export const font = (family: EFamily, size?: number, weight?: EWeight) => css`
 `
 
 export const themeColor = '#000'
+export const backgroundTransparency = '0.2'
