@@ -1,13 +1,14 @@
 import S from './styled'
 
 import Logo from '../../components/Logo'
-import Button from '../../components/ui/Button'
+import MenuButton from '../../components/MenuButton'
+
+const menuButtonClickHandler = () => alert('hi!')
 
 const Header: React.FC = () => (
   <S>
     <Logo />
-    <Button>Button</Button>
-    <div>Menu</div>
+    <MenuButton clickHandler={menuButtonClickHandler} />
   </S>
 )
 

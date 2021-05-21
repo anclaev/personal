@@ -9,3 +9,8 @@ export interface IBackground {
 export interface ILogo {
   fill?: string
 }
+
+export interface IButton {
+  children?: React.ReactNode
+  clickHandler?: () => void
+}
