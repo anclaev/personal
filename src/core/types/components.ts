@@ -1,5 +1,3 @@
-import { FlattenSimpleInterpolation } from 'styled-components'
-
 export interface IBackground {
   opacity?: string
   isPoster?: boolean
@@ -8,7 +6,6 @@ export interface IBackground {
   muted?: boolean
 }
 
-export interface ICustomStyle {
-  child: React.FC
-  css: FlattenSimpleInterpolation
+export interface ILogo {
+  fill?: string
 }
