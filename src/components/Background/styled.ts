@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-interface Props {
+interface IProps {
   transparency: string
 }
 
@@ -28,7 +28,7 @@ const S = styled.div`
   &:after {
     content: '';
     background: #000;
-    opacity: ${(P: Props) => P.transparency};
+    opacity: ${(P: IProps) => P.transparency};
     bottom: 0;
     right: 0;
   }

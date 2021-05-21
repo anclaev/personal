@@ -1,9 +1,9 @@
 import SBackground from './styled'
 
-import { TBackground } from '../../core/types/components'
+import { IBackground } from '../../core/types/components'
 import { backgroundTransparency } from '../../styles/vars'
 
-const Background: React.FC<TBackground> = ({
+const Background: React.FC<IBackground> = ({
   autoplay = true,
   loop = true,
   muted = true,

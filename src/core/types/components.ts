@@ -1,4 +1,4 @@
-export type TBackground = {
+export interface IBackground {
   opacity?: string
   isPoster?: boolean
   autoplay?: boolean
