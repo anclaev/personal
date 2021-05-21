@@ -3,7 +3,7 @@ import { Root } from './styles/root'
 const App = () => (
   <>
     <Root />
-    <div>App</div>
+    <div>This is my first website!</div>
   </>
 )
 
